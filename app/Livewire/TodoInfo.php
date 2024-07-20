@@ -3,9 +3,9 @@
 namespace App\Livewire;
 
 use App\Models\Todo;
-use Livewire\Component;
-use Livewire\Attributes\Reactive;
 use Illuminate\Contracts\View\View;
+use Livewire\Attributes\Reactive;
+use Livewire\Component;
 
 class TodoInfo extends Component
 {

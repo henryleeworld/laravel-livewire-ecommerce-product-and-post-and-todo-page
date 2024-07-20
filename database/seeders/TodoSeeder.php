@@ -7,8 +7,11 @@ use Illuminate\Database\Seeder;
 
 class TodoSeeder extends Seeder
 {
+    /**
+     * Run the database seeders.
+     */
     public function run(): void
     {
-        Todo::factory(5)->create();
+        Todo::factory()->count(5)->create();
     }
 }

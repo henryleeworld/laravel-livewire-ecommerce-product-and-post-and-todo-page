@@ -2,11 +2,11 @@
 
 namespace App\Livewire;
 
-use Livewire\Component;
-use Livewire\Attributes\On;
-use Livewire\Attributes\Layout;
 use App\Models\Post;
 use Illuminate\Contracts\View\View;
+use Livewire\Attributes\Layout;
+use Livewire\Attributes\On;
+use Livewire\Component;
 
 class ViewPost extends Component
 {

@@ -2,10 +2,10 @@
 
 namespace App\Livewire;
 
-use Livewire\Component;
-use Illuminate\Support\Str;
 use App\Livewire\Forms\PostForm;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Str;
+use Livewire\Component;
 
 class CreatePost extends Component
 {

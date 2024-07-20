@@ -2,11 +2,11 @@
 
 namespace App\Livewire;
 
-use App\Models\Post;
-use Livewire\Component;
-use Livewire\Attributes\Layout;
 use App\Livewire\Forms\PostForm;
+use App\Models\Post;
 use Illuminate\Contracts\View\View;
+use Livewire\Attributes\Layout;
+use Livewire\Component;
 
 class EditPost extends Component
 {

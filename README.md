@@ -1,4 +1,4 @@
-# Laravel 10 Livewire 電子商務商品、貼文和待辦詳情
+# Laravel 11 Livewire 電子商務商品、貼文和待辦詳情
 
 萬事起步難，但老實說，建立電商到經營電商的每個步驟，都有許多各自要鑽研的功夫！曝光商品可以說是整個經營電商的過程中，最核心的關鍵，互動式的貼文能夠拉近使用者，使用者也能藉此感受同樣問題時，其他使用者特別的反應，使用高效的待辦事項清單和筆記進行協助完成工作。
 
@@ -15,10 +15,6 @@ $ composer install
 - 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
-```
-- 執行 __Artisan__ 指令的 __storage:link__ 來建立連結符號，讓公用可存取的檔案維持在一個目錄中。
-```sh
-$ php artisan storage:link
 ```
 - 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
 ```sh
@@ -39,11 +35,11 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/srYfDJj.png)
+![](https://i.imgur.com/ICQq1dU.png)
 > 選對了商品，等同於有了好的基礎，就能夠讓電商經營事半功倍
 
-![](https://i.imgur.com/XdvQkU8.png)
+![](https://i.imgur.com/16aF5Qp.png)
 > 長貼文適合應用於新產品的發行或促銷活動，短貼文則適合用來和追蹤者日常的交流
 
-![](https://i.imgur.com/OR2oDvk.png)
+![](https://i.imgur.com/rE362HE.png)
 > 確保不會忘記任何事項，並能有效地規劃工作

@@ -3,9 +3,9 @@
 namespace App\Livewire;
 
 use App\Models\Todo;
-use Livewire\Component;
-use Illuminate\Support\Collection;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Collection;
+use Livewire\Component;
 
 class TodosList extends Component
 {

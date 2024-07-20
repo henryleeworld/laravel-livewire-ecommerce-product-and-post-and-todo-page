@@ -3,9 +3,9 @@
 namespace App\Livewire;
 
 use App\Models\Post;
-use Livewire\Component;
-use Livewire\Attributes\Rule;
 use Illuminate\Contracts\View\View;
+use Livewire\Attributes\Rule;
+use Livewire\Component;
 
 class CreateComment extends Component
 {

@@ -2,15 +2,15 @@
 
 namespace App\Livewire;
 
-use Livewire\Component;
-use App\Models\Product;
-use App\Models\Category;
-use Livewire\Attributes\Rule;
-use Livewire\WithFileUploads;
-use Livewire\Attributes\Locked;
-use Illuminate\Support\Collection;
-use Illuminate\Contracts\View\View;
 use App\Livewire\Forms\ProductsForm;
+use App\Models\Category;
+use App\Models\Product;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Collection;
+use Livewire\Attributes\Locked;
+use Livewire\Attributes\Rule;
+use Livewire\Component;
+use Livewire\WithFileUploads;
 
 class ProductsEdit extends Component
 {

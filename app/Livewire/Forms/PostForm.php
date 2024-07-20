@@ -3,10 +3,10 @@
 namespace App\Livewire\Forms;
 
 use App\Models\Post;
-use Livewire\Attributes\Rule;
-use Livewire\Form;
 use App\Services\PostService;
 use Livewire\Attributes\Locked;
+use Livewire\Attributes\Rule;
+use Livewire\Form;
 
 class PostForm extends Form
 {

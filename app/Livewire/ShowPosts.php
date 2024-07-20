@@ -3,9 +3,9 @@
 namespace App\Livewire;
 
 use App\Models\Post;
-use Livewire\Component;
-use Livewire\Attributes\Url;
 use Illuminate\Contracts\View\View;
+use Livewire\Attributes\Url;
+use Livewire\Component;
 
 class ShowPosts extends Component
 {

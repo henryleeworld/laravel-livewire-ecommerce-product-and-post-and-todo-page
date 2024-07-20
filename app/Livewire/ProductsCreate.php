@@ -2,14 +2,14 @@
 
 namespace App\Livewire;
 
-use Livewire\Component;
-use App\Models\Product;
-use App\Models\Category;
-use Livewire\Attributes\Rule;
-use Livewire\WithFileUploads;
-use Illuminate\Support\Collection;
-use Illuminate\Contracts\View\View;
 use App\Livewire\Forms\ProductsForm;
+use App\Models\Category;
+use App\Models\Product;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Collection;
+use Livewire\Attributes\Rule;
+use Livewire\Component;
+use Livewire\WithFileUploads;
 
 class ProductsCreate extends Component
 {

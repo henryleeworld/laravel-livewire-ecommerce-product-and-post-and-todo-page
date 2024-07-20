@@ -3,10 +3,10 @@
 namespace App\Livewire;
 
 use App\Models\Post;
-use Livewire\Component;
-use Livewire\Attributes\Computed;
-use Illuminate\Support\Collection;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Collection;
+use Livewire\Attributes\Computed;
+use Livewire\Component;
 
 class ShowComments extends Component
 {

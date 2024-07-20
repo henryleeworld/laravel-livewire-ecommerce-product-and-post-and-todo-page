@@ -38,7 +38,7 @@
                     <div class="mt-4">
                         <label for="color">{{ __('Color') }}</label>
                         @foreach(\App\Models\Product::COLOR_LIST as $key => $value)
-                            <div><input type="radio" wire:model="form.color" id="color" value="{{ $key }}" />{{ $value }}</div>
+                            <div><input type="radio" wire:model="form.color" id="color" value="{{ $key }}" />{{ __($value) }}</div>
                         @endforeach
                         @error('form.color')
                             <span class="mt-2 text-sm text-red-600">{{ $message }}</span>

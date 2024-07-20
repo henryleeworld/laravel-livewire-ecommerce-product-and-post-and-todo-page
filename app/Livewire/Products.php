@@ -2,13 +2,13 @@
 
 namespace App\Livewire;
 
-use Livewire\Component;
-use App\Models\Product;
 use App\Models\Category;
-use Livewire\WithPagination;
-use Illuminate\Support\Collection;
+use App\Models\Product;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Collection;
+use Livewire\Component;
+use Livewire\WithPagination;
 
 class Products extends Component
 {
