@@ -13,7 +13,7 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
-//        Product::factory()->count(50)->create();
+        // Product::factory()->count(50)->create();
 
         $categories = collect(Category::pluck('id'));
         Product::factory()

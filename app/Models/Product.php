@@ -9,12 +9,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Product extends Model
 {
+    /** @use HasFactory<\Database\Factories\ProductFactory> */
     use HasFactory;
 
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'name',
@@ -31,11 +32,17 @@ class Product extends Model
         'blue' => 'Blue',
     ];
 
+    /**
+     * Get the category that owns the product.
+     */
     public function category(): BelongsTo
     {
         return $this->belongsTo(Category::class);
     }
 
+    /**
+     * The categories that belong to the product.
+     */
     public function categories(): BelongsToMany
     {
         return $this->belongsToMany(Category::class);

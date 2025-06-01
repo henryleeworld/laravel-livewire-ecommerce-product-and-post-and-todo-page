@@ -7,12 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Todo extends Model
 {
+    /** @use HasFactory<\Database\Factories\TodoFactory> */
     use HasFactory;
 
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'title',
@@ -25,7 +26,10 @@ class Todo extends Model
      *
      * @return array<string, string>
      */
-    protected $casts = [
-        'due_at' => 'datetime',
-    ];
+    protected function casts(): array
+    {
+        return [
+            'due_at' => 'datetime',
+        ];
+    }
 }
